@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family:century gothic;
+    background-image: url(kkk.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .header {
+    padding: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    background-color:none;
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  nav{
+	  padding-left: .3%;
+    background-color: transparent;
+    display:grid;
+    font-size: 20px;
+	  background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+  
+  }
+  nav ul{
+    list-style-type: none;
+	  padding-left: 42%;
+  }
+  nav ul a{
+    display: inline;
+    width: 150px;
+    height: 1500px;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;  
+    background-color:transparent; 
+    color: navy;
+	  color: black;
+    text-decoration: none;
+      
+  }
+  nav ul a:hover{
+	  color: #E5580C;
+  }
+.about{
+    padding: 140px;
+}
+.content{
+    margin-left: 150px;
+    text-align:right;
+    font-size:45px;
+    font-family: impact;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;  
+}
+
+/*footer*/
+.inner-footer{
+  margin-top: 10%;
+  padding: 0;
+  background-color: white;
+}
+.social-link{
+  display: flex;
+}
+.social-link ul{
+  padding: 5px;
+  display: flex;
+  width: 330px;
+  height: 3 0px;
+  margin: auto;
+}	
+.social-item{
+  list-style: none;
+}
+.social-item a{
+  padding: 10px 10px;
+  font-size: 35px;
+  margin-top: 15px;
+  color: black;
+}
+.quick-item{
+  list-style:none;
+  display: flex;
+}
+.quick-item a{
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 18px;
+  color: black;
+
+}
+.quick-item a:hover{
+  color: orange;
+
+}
+.outer-footer{
+  padding: 10px;
+  text-align: center;
+  color: #63416F;
+  font-size: 18px;
+  background-color: white;
+}
